@@ -1,0 +1,97 @@
+ 
+/* ============= backup INSERT whatup id 1 =================
+ * on 2022-09-26 00:32:15 am
+ * */
+    INSERT INTO `whatups` (`user_id`,`title`,`cover`,`body`,`is_public`,
+    `created_at`,`updated_at`)VALUES(
+        '2',
+        'I have been using my system for 16 days 23 hours 7 mins.',
+        'user_uploaded/kenny@me.me_2022-09-26_update_11-aug-2022_2.png',
+        '
+<div>
+<p>
+I have been using my laptop for 16 days 23 Hours 7 minute. without shutdown or restart and it still run smooth the 28 Sep 2022 I have 274 update to do.
+</p>
+
+
+</div>
+        ',
+        '1',
+        '2022-09-28 08:32:15',
+        '2022-09-28 08:32:15');
+  
+ 
+/* ============= backup INSERT whatup id 2 =================
+ * on 2022-10-01 00:07:57 am
+ * */
+    INSERT INTO `whatups` (`user_id`,`title`,`cover`,`body`,`is_public`,
+    `created_at`,`updated_at`)VALUES(
+        '4',
+        'รายการฟ้าทะลายโจร วันศุกร์ที่ ๓๐ เดือนกันยายน พ.ศ.๒๕๖๕',
+        'img/1280x960.png',
+        '<p>https://archive.org/embed/kob-sep-2022<br>ดูรายการฟ้าทะลายโจร ย้อนหลังของเดือน กันยายน พ.ศ.๒๕๖๕<br><br>รายการฟ้าทะลายโจรถูกโพสใน <br>https://see-southern.com<br><br>ดูโฆษณาที่ตัดออกมาจากวิดิโอ ลิ้งค์นี้ครับ<br>https://archive.org/embed/ar-jarn-kob-sponsor<br><br>ช่วยผม 1 คะแนน ใน odysee ด้วยลิ้งค์นี้นะครับ<br>https://odysee.com/$/invite/@farook.fuutime:7<br><br><br>#รายการฟ้าทะลายโจร<br>#ช่องอาจารย์กบ <br>#แหกกะโหลกควายรุ่นใหม่<br>#อย่าโง่ให้ใครหลอก<br>#ชาติชั่วต้องนอนคุก</p>
+<p class="py-4">
+<iframe class="aspect-video w-full border-t-2" title="รายการฟ้าทะลายโจร วันศุกร์ที่ ๓๐ เดือนกันยายน พ.ศ.๒๕๖๕" width="640" height="360" scrolling="no" frameborder="0" src="https://www.bitchute.com/embed/bBFTtFAdmuzK/"></iframe>
+
+
+</p>
+<p>
+    รายการฟ้าทะลายโจรนะจ๊ะ
+</p>',
+        '1',
+        '2022-10-01 00:07:57',
+        '2022-10-01 00:07:57');
+ 
+ 
+/* ============= backup INSERT whatup id 3 =================
+ * on 2022-10-01 08:27:01 am
+ * */
+    INSERT INTO `whatups` (`user_id`,`title`,`cover`,`body`,`is_public`,
+    `created_at`,`updated_at`)VALUES(
+        '2',
+        'my new test use kob',
+        'img/default_kob.jpg',
+        '<p>thi s is the test use kob</p>',
+        '0',
+        '2022-10-01 08:27:01',
+        '2022-10-01 08:27:01');
+  
+/* ============= backup INSERT whatup id 4 =================
+ * on 2022-10-01 08:28:19 am
+ * */
+    INSERT INTO `whatups` (`user_id`,`title`,`cover`,`body`,`is_public`,
+    `created_at`,`updated_at`)VALUES(
+        '2',
+        'my new test use the  out source',
+        'https://www.costco.co.uk/medias/sys_master/images/ha3/hf9/69532599156766.jpg',
+        '<p>thi s is the test use out source ha ha</p>',
+        '1',
+        '2022-10-01 08:28:19',
+        '2022-10-01 08:28:19');
+  
+/* ============= backup INSERT whatup id 5 =================
+ * on 2022-10-01 19:25:16 pm
+ * */
+    INSERT INTO `whatups` (`user_id`,`title`,`cover`,`body`,`is_public`,
+    `created_at`,`updated_at`)VALUES(
+        '2',
+        'this is my next model build',
+        'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-honda-civic-sedan-1558453497.jpg?crop=1xw:0.9997727789138833xh;center,top&resize=480:*',
+        '<p>the car is cool</p>',
+        '1',
+        '2022-10-01 19:25:16',
+        '2022-10-01 19:25:16');
+  
+/* ============= backup INSERT whatup id 6 =================
+ * on 2022-10-01 21:44:19 pm
+ * */
+    INSERT INTO `whatups` (`user_id`,`title`,`cover`,`body`,`is_public`,
+    `created_at`,`updated_at`)VALUES(
+        '1',
+        'this is admin post',
+        'user_uploaded/farook@me.me_2022-10-01_002_odysee_coin_20-sep-2022.png',
+        '<p>this is the odeysee image</p>',
+        '1',
+        '2022-10-01 21:44:19',
+        '2022-10-01 21:44:19');
+ 

@@ -1,0 +1,74 @@
+ 
+/* ===================== make backup for read id 1=====================
+ * on 2022-09-28
+ * */
+INSERT INTO `reads`(`ip`,`os`,`browser`,`device`,`created_at`,`updated_at`) 
+VALUES(
+'127.0.42.1',
+'Linux default',
+'Firefox 104.0',
+'default',
+'2022-08-01 22:20:55',
+'2022-08-01 22:20:55');
+  
+ 
+/* ===================== make backup for read id 2=====================
+ * on 2022-09-29
+ * */
+INSERT INTO `reads`(`ip`,`os`,`browser`,`device`,`created_at`,`updated_at`) 
+VALUES(
+'127.0.0.1',
+'Linux ',
+'Firefox 104.0',
+'0',
+'2022-09-29 07:22:28',
+'2022-09-29 07:22:28');
+  
+/* ===================== make backup for read id 3=====================
+ * on 2022-09-30
+ * */
+INSERT INTO `reads`(`ip`,`os`,`browser`,`device`,`created_at`,`updated_at`) 
+VALUES(
+'127.0.0.1',
+'Linux ',
+'Firefox 104.0',
+'0',
+'2022-09-30 04:00:11',
+'2022-09-30 04:00:11');
+  
+/* ===================== make backup for read id 4=====================
+ * on 2022-10-01
+ * */
+INSERT INTO `reads`(`ip`,`os`,`browser`,`device`,`created_at`,`updated_at`) 
+VALUES(
+'127.0.0.1',
+'Linux ',
+'Chrome 104.0.5112.115',
+'WebKit',
+'2022-10-01 00:08:37',
+'2022-10-01 00:08:37');
+  
+/* ===================== make backup for read id 5=====================
+ * on 2022-10-01
+ * */
+INSERT INTO `reads`(`ip`,`os`,`browser`,`device`,`created_at`,`updated_at`) 
+VALUES(
+'127.0.0.1',
+'Linux ',
+'Chrome 104.0.5112.115',
+'WebKit',
+'2022-10-01 09:42:55',
+'2022-10-01 09:42:55');
+  
+/* ===================== make backup for read id 6=====================
+ * on 2022-10-01
+ * */
+INSERT INTO `reads`(`ip`,`os`,`browser`,`device`,`created_at`,`updated_at`) 
+VALUES(
+'127.0.0.1',
+'Linux ',
+'Chrome 104.0.5112.115',
+'WebKit',
+'2022-10-01 09:55:11',
+'2022-10-01 09:55:11');
+ 

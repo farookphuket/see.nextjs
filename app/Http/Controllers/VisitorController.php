@@ -21,6 +21,14 @@ class VisitorController extends Controller
         ]);
     }
 
+    public function getVisitors(){
+        $v = Visitor::latest()
+                ->paginate(60);
+        return response()->json([
+            "visitors" => $v
+        ]);
+    }
+
     public function isNewVisit(){
         $obj = "";
         $today = date('Y-m-d',time());

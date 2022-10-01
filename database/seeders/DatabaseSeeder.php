@@ -27,6 +27,8 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             RoleSeeder::class,
             VisitorSeeder::class,
+            WhatupSeeder::class,
+            ReadSeeder::class,
         ]);
 
         $this->make_pip_table();
@@ -40,6 +42,12 @@ class DatabaseSeeder extends Seeder
             $role_file = 'DB/user_role_link.sqlite';
             DB::unprepared(file_get_contents($role_file));
             $this->command->info("Role of User has been Created!!");
+
+
+            /* link whatup to read */
+            $read_file = 'DB/whatup_read_link.sqlite';
+            DB::unprepared(file_get_contents($read_file));
+            $this->command->info("Whatup Read Link has been Created!!");
  
     }
 }

@@ -14,10 +14,16 @@ class RoleController extends Controller
      */
     public function index()
     {
-        //
+    //
+    $ro = Role::all();
+    return response()->json([
+      "role" => $ro
+    ]);
+
+
     }
 
-    /**
+   /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
