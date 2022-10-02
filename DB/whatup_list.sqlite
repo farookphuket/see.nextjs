@@ -94,4 +94,17 @@ I have been using my laptop for 16 days 23 Hours 7 minute. without shutdown or r
         '1',
         '2022-10-01 21:44:19',
         '2022-10-01 21:44:19');
+  
+/* ============= backup INSERT whatup id 7 =================
+ * on 2022-10-02 22:12:08 pm
+ * */
+    INSERT INTO `whatups` (`user_id`,`title`,`cover`,`body`,`is_public`,
+    `created_at`,`updated_at`)VALUES(
+        '2',
+        'this is the new post from kenny',
+        'img/USER_UPLOAD/WHATUP/kenny@me.me_2022-10-02_bryan adams.jpg',
+        '<p>this is the post from kenny again</p>',
+        '1',
+        '2022-10-02 22:12:08',
+        '2022-10-02 22:12:08');
  

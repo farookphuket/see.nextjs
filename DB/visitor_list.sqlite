@@ -3175,3 +3175,16 @@ INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
  
  
  
+ 
+/* ========================== Backup Visitor List =============================
+ * on 2022-10-03 00:04:27 am
+ * */
+INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
+`updated_at`) VALUES(
+    '127.0.0.1',
+    'Linux ',
+    'Chrome 104.0.5112.126',
+    'WebKit',
+    '2022-10-03 00:04:27',
+    '2022-10-03 00:04:27');
+ 

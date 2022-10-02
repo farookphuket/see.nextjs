@@ -12,3 +12,16 @@ VALUES(
 '2022-08-01 22:20:55');
   
  
+ 
+/* ===================== make backup for read id 7=====================
+ * on 2022-10-02
+ * */
+INSERT INTO `reads`(`ip`,`os`,`browser`,`device`,`created_at`,`updated_at`) 
+VALUES(
+'127.0.0.1',
+'Linux ',
+'Firefox 104.0',
+'0',
+'2022-10-02 22:07:49',
+'2022-10-02 22:07:49');
+ 

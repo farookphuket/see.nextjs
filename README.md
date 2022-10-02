@@ -38,6 +38,10 @@ just commit the source code to githup
 
 # how to use this source code
 
+> lazy to read? [watch the video](https://www.youtube.com/watch?v=HSMTJUY1cAo)
+
+
+
 by clone this repo into your folder in my case i will do it on the home folder 
 `cd ~/`
 `git clone https://github.com/farookphuket/see.nextjs.git`
@@ -50,7 +54,7 @@ in the folder `see.nextjs` let edit the file `.env.EXAMPLE` by change it name to
 ```
 APP_URL=http://localhost:8000
 FRONTEND_URL=http://localhost:3000
-SESSION_DOMAIN=.localhost
+SESSION_DOMAIN=localhost
 
 
 DB_CONNECTION=sqlite

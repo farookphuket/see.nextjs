@@ -11,3 +11,15 @@ VALUES(
 '2022-08-01 06:59:02');
  
  
+ 
+/* ====================== pip table for read count whatup ==================== 
+ * on 2022-10-02 22:07:49
+ * */
+INSERT INTO `read_whatup`(`read_id`,`whatup_id`,`ip`,`created_at`,`updated_at`) 
+VALUES(
+'7',
+'6',
+'127.0.0.1',
+'2022-10-02 22:07:49',
+'2022-10-02 22:07:49');
+ 
