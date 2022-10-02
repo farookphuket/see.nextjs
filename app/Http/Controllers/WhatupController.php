@@ -109,8 +109,7 @@ class WhatupController extends Controller
 
         $msg = "success, note has been save";
         return response()->json([
-            "msg" => $msg,
-            "cover" => $cover
+            "msg" => $msg
 
         ],200);
     }
@@ -126,8 +125,8 @@ class WhatupController extends Controller
         // set the default to prevent from delete
         $default = "img/1280x960.png";
         
-        $public_path = public_path('user_uploaded');
-        $db_path = "user_uploaded";
+        $public_path = public_path('img/USER_UPLOAD/WHATUP');
+        $db_path = "img/USER_UPLOAD/WHATUP";
 
 
         // check if update post 
@@ -140,8 +139,8 @@ class WhatupController extends Controller
             if(request()->hasFile('cover')):
 
                 // check if the old pic 
-                if(file_exists(public_path("{$old_cover}")) && $old_cover != $default):
-                    unlink(public_path("{$old_cover}") );
+                if(file_exists($old_cover) && $old_cover != $default):
+                    unlink($old_cover);
                 endif;
 
 
@@ -284,8 +283,8 @@ class WhatupController extends Controller
     {
         $wp = Whatup::find($whatup->id);
         $p_cover = $wp->cover;
-        if(file_exists(public_path("{$p_cover}"))):
-            unlink(public_path("{$p_cover}"));
+        if(file_exists($p_cover)):
+            unlink($p_cover);
         endif;
         $wp->delete();
 

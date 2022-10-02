@@ -3175,39 +3175,3 @@ INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
  
  
  
-/* ========================== Backup Visitor List =============================
- * on 2022-09-29 07:22:08 am
- * */
-INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
-`updated_at`) VALUES(
-    '127.0.0.1',
-    'Linux ',
-    'Firefox 104.0',
-    '0',
-    '2022-09-29 07:22:08',
-    '2022-09-29 07:22:08');
-  
-/* ========================== Backup Visitor List =============================
- * on 2022-09-30 03:02:38 am
- * */
-INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
-`updated_at`) VALUES(
-    '127.0.0.1',
-    'Linux ',
-    'Firefox 104.0',
-    '0',
-    '2022-09-30 03:02:38',
-    '2022-09-30 03:02:38');
-  
-/* ========================== Backup Visitor List =============================
- * on 2022-10-01 00:02:48 am
- * */
-INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
-`updated_at`) VALUES(
-    '127.0.0.1',
-    'Linux ',
-    'Chrome 104.0.5112.115',
-    'WebKit',
-    '2022-10-01 00:02:48',
-    '2022-10-01 00:02:48');
- 
